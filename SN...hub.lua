@@ -1115,10 +1115,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ShenJiaoBen/ScriptLoa
 
 local Tab = Window:MakeTab({
 
-    Name = "",
+    Name = "墨水游戏",
 
     Icon = "rbxassetid://4483345998",
 
     PremiumOnly = false
 
+})
+
+Tab:AddButton({
+	Name = "墨水游戏汉化",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/OK/refs/heads/main/sb"))()
+        end
 })
