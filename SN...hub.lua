@@ -1,8 +1,8 @@
 
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
 
-local Window = OrionLib:MakeWindow({Name = "SN脚本中心 V1.2.5 bata ", HidePremium = false, SaveConfig = true,IntroText = "welcome", ConfigFolder = "xianing制作"})
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "HUB"; Text ="HUB"; Duration = 4; })
+local Window = OrionLib:MakeWindow({Name = "SN脚本中心 V1.3.0 beta ", HidePremium = false, SaveConfig = true,IntroText = "welcome", ConfigFolder = "xianing制作"})
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "HUB"; Text ="HUB"; Duration = 8; })
 
 local about = Window:MakeTab({
     Name = "公告",
