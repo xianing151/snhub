@@ -10,7 +10,7 @@ local input
 Tab:AddTextbox({Name = "请输入卡密",Default = "",TextDisappear = true,Callback = function(Value)
 input = Value
 if input == "∇2024§XN_KM∏9R∆45" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xianing151/SNHUB/main/SNhub.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xianing151/SNHUB/main/SN...hub.lua"))()
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "验证成功",Text = "脚本已加载",Duration = 3})
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "验证失败",Text = "卡密错误，请重新输入",Duration = 3})
