@@ -291,6 +291,13 @@ Tab:AddButton({
         end
 })
 
+Tab:AddButton({
+	Name = "当前坐标",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/xianing151/SNHUB/main/coordinate.lua"))()
+        end
+})
+
 Tab:AddToggle({
 	Name = "夜视",
 	Default = false,
@@ -579,3 +586,64 @@ Tab:AddButton({
         end
 })
 
+local Tab = Window:MakeTab({
+
+    Name = "比特币矿工",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+	Name = "传送15级区域",
+	Callback = function()
+     game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(25,8,-247)
+        end
+})
+
+Tab:AddButton({
+	Name = "传送35级区域",
+	Callback = function()
+     game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(-212,34,-89)
+        end
+})
+
+Tab:AddButton({
+	Name = "传送900级区域",
+	Callback = function()
+     game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(104,10,265)
+        end
+})
+
+Tab:AddButton({
+	Name = "传送solar区(得上地铁)",
+	Callback = function()
+     game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(246,-18,136)
+        end
+})
+
+Tab:AddButton({
+	Name = "提款机",
+	Callback = function()
+     game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(205.59,7.39,-34.49)
+        end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "压力",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+	Name = "脚本",
+	Callback = function()
+     loadstring(game:HttpGet("https://github.com/Drop56796/CreepyEyeHub/blob/main/obfuscate.lua?raw=true"))()
+        end
+})
