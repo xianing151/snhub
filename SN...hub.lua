@@ -10,8 +10,9 @@ local about = Window:MakeTab({
     PremiumOnly = false
 })
 
-about:AddParagraph("脚本为免费脚本 请勿去圈钱")
-about:AddParagraph("禁止倒卖")
+
+about:AddParagraph("脚本为免费脚本由xianing开发<腾讯元宝协助>")
+about:AddParagraph("严禁盗用")
 about:AddParagraph("用户名:"," "..game.Players.LocalPlayer.Name.."")
 about:AddParagraph("注入器:"," "..identifyexecutor().."")
 about:AddParagraph("当前服务器ID"," "..game.GameId.."")
@@ -107,6 +108,13 @@ Tab:AddTextbox({
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.Health = Value
 	end	 
+})
+
+Tab:AddButton({
+	Name = "悦炸服(限时)",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/xianing151/snhub/main/yui.lua"))()
+        end
 })
 
 Tab:AddButton({
@@ -558,7 +566,7 @@ local Tab = Window:MakeTab({
 
     Name = "动感星期五",
 
-    Icon = "rbxassetid://6445989296",
+    Icon = "rbxassetid://4483345998",
 
     PremiumOnly = false
 
@@ -1129,3 +1137,39 @@ Tab:AddButton({
      loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/OK/refs/heads/main/sb"))()
         end
 })
+
+local Tab = Window:MakeTab({
+
+    Name = "彩虹朋友",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+	Name = "脚本",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Iliankytb/Iliankytb/main/BestRainbowFriendsTwo"))()
+        end
+})
+
+local Tab = Window:MakeTab({
+
+    Name = "枪械库大亨",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Tab:AddButton({
+	Name = "脚本",
+	Callback = function()
+     loadstring(game:HttpGet("https://gist.githubusercontent.com/BeerlDeveloper/e1b9eb788df5e9fbace5b6460e3b91c5/raw/6c1068753fd50bb9e89502cb48b8304b664219ab/GunArmoryTycoonLoader.lua"))()
+        end
+})
+
+
