@@ -1,3 +1,5 @@
+
+
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
 local Window = OrionLib:MakeWindow({Name = "SN脚本中心[key] ", HidePremium = false, SaveConfig = true,IntroText = "key", ConfigFolder = "xianing制作"})
 setclipboard("1048659522")
@@ -14,6 +16,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xianing151/SNHUB/main
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "验证成功",Text = "脚本已加载",Duration = 3})
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "验证失败",Text = "卡密错误，请重新输入",Duration = 3})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xianing151/SNHUB/main/SN...hub.lua"))()        
 end
 end})
 OrionLib:Init()
