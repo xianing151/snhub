@@ -1,6 +1,2 @@
-local Whitelist = {
-    [12345678] = true, 
-    [goodnight12201] = true  
-}
-
-return Whitelist  
+local snkey = "྅ཽི༄༅ཨོཾ།ྈༀ༽༼༒ྀ༇༆༃༂༓༵༗༴༊༕༉༖༜༙༔༈༻།་ི།༤༣ྱ♯r▅©®"
+print ("卡密导入成功")
