@@ -1,2 +1,2 @@
-local snkey = " KpLmN-49271-ГДЕЖЗ-uvwxy "
+local snkey = "147963852efr"
 print ("卡密导入成功")
