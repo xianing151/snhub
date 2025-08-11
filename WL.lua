@@ -1,2 +1,2 @@
-local snkey = "147963852efr"
-print ("卡密导入成功")
+local PlayerID = "888888888888"
+print("导入成功")
