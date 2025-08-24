@@ -10,6 +10,7 @@ panel.BackgroundTransparency = 0.5
 panel.BorderSizePixel = 1
 panel.BorderColor3 = Color3.new(0.8, 0.8, 0.8)
 panel.ClipsDescendants = true
+panel.Draggable = true
  
 local titleBar = Instance.new("Frame")
 titleBar.Parent = panel
