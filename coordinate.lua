@@ -17,7 +17,8 @@ titleBar.Parent = panel
 titleBar.Size = UDim2.new(1, 0, 0, 20)
 titleBar.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
 titleBar.Active = true
- 
+titleBar.Draggable = true
+
 local titleBarTween = game:GetService("TweenService"):Create(
 titleBar,
 TweenInfo.new(0.2),
